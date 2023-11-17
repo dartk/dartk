@@ -16,7 +16,7 @@
     - Developing in-company tools and libraries
     - Providing technical support, mentoring other team members, and writing documentation
   achievements:
-    - Completed and provided multi-year support for a number of projects
-    - Deployed Git server and managed transition from SVN
+    - Lead developed on a number of greenfield projects as well as legacy projects
+    - Managed transition from SVN to GIT
     - Deployed local NuGet package registry and introduced the development of internal packages
-    - Deployed documentation website using DocFX and have been evolving in-company knowledge base
+    - Deployed documentation server using DocFX and have been evolving in-company knowledge base
