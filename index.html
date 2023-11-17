@@ -98,8 +98,7 @@ layout: default
     href="{% if project.external_url != null %} {{ project.external_url }} {% else %} {{ project.url }} {% endif %}">
 
     {% if project.thumbnail != null %}
-    <img src="/assets/img/{{ project.thumbnail }}" alt="thumbnail" class="rounded float-end img-thumbnail" width="200"
-      height="200" />
+    <img src="/assets/img/{{ project.thumbnail }}" alt="thumbnail" class="rounded float-sm-end img-thumbnail col-sm-3 ms-sm-2 my-2 my-sm-0" />
     {% endif %}
 
     <h5 class="align-middle mb-1">{{ project.name }}</h5>
