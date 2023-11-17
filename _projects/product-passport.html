@@ -1,0 +1,98 @@
+---
+priority: 1
+layout: default
+name: Digital Product Passport
+thumbnail: passport.png
+description: Application designed to deliver product data to customers in a lightweight format with 3D visualization.
+tags:
+  - C#
+  - WPF
+  - Avalonia UI
+  - Direct3D
+  - OpenGL
+  - SQLite
+  - Entity Framework
+  - InnoSetup
+  - 3D CAD
+technologies:
+  - name: Platform
+    items:
+      - C#
+      - .NET Framework
+      - .NET Core
+  - name: UI
+    items:
+      - WPF
+      - Avalonia UI
+      - ReactiveUI
+  - name: Visualization
+    items:
+      - Direct3D
+      - OpenGL
+      - glTF2
+  - name: File Format
+    items:
+      - SQLite
+      - Entity Framework
+      - Dapper
+  - name: Installers
+    items:
+      - Squirrel
+      - InnoSetup
+  - name: Logs
+    items:
+      - Serilog
+  - name: Tests
+    items:
+      - xUnit
+---
+
+<h1>Digital Product Passport</h1>
+<p>
+  Application designed to deliver product data to customers in a lightweight format with 3D visualization. The
+  application imports data from a 3D CAD system (KOMPAS-3D) and stores data in a SQLite database file.
+</p>
+
+<div class="row">
+  <div class="col-sm">
+    <figure class="app-figure">
+      <img src="/assets/img/kompas.png" alt="KOMPAS-3D screenshot">
+      <figcaption>KOMPAS-3D CAD system</figcaption>
+    </figure>
+  </div>
+
+  <div class="col-sm">
+    <figure class="app-figure">
+      <img class="image-app" src="/assets/img/passport.png" alt="Digital Product Passport screenshot">
+      <figcaption>Digital Product Passport</figcaption>
+    </figure>
+  </div>
+</div>
+
+<h2>Features</h2>
+
+<ul>
+  <li>Imports data from CAD system using COM API</li>
+  <li>Uses SQLite as a file format</li>
+  <li>Creates glTF2 file from the imported tesselated 3D data</li>
+  <li>WPF and Direct3D are used for Windows-only version of the application</li>
+  <li>Avalonia UI and OpenGL are used for cross-platform version of the application with Linux support</li>
+  <li>Can produce a portable executable file that contains a data file and the application itself to deliver to
+    customers</li>
+</ul>
+
+<h3>Utilized technologies</h3>
+<div class="list-group list-group-flush">
+  {% for category in page.technologies %}
+  <div class="list-group-item">
+    <div class="row m-0">
+      <div class="col-md-2">
+        <h6 class="m-1">{{ category.name }}</h6>
+      </div>
+      <div class="col-md">
+        {% include taglist.html tags=category.items class="tag-primary" %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,38 @@
+- name: CSharp.DiscriminatedUnions
+  description: Discriminated unions for C#
+  url: https://github.com/dartk/csharp-discriminated-unions
+  tags:
+    - C#
+    - Roslyn
+    - Functional Programming
+    - Algebraic Data Types
+- name: RazorGen
+  description: Razor template renderer
+  url: https://github.com/dartk/RazorGen
+  tags:
+    - C#
+    - Roslyn
+    - Razor
+    - Templating
+    - ASP.NET
+- name: ScribanGen
+  description: Scriban template renderer
+  url: https://github.com/dartk/ScribanGen
+  tags:
+    - C#
+    - Roslyn
+    - Scriban
+    - Templating
+- name: CSharp.SourceGen.Csx
+  description: C# script renderer
+  url: https://github.com/dartk/csharp-sourcegen-csx
+  tags:
+    - C#
+    - Roslyn
+- name: CSharp.SourceGen.Fsx
+  description: F# script renderer
+  url: https://github.com/dartk/csharp-sourcegen-fsx
+  tags:
+    - C#
+    - Roslyn
+    - F#

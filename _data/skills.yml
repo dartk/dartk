@@ -1,0 +1,59 @@
+- name: Languages
+  proficient:
+    - C#
+    - F#
+  familiar:
+    - JavaScript
+    - TypeScript
+    - C++
+- name: Desktop GUI
+  proficient:
+    - WPF
+    - WinForms
+    - Avalonia UI
+    - ReactiveUI
+- name: Web
+  proficient:
+    - ASP.NET
+  familiar:
+    - HTML
+    - CSS
+    - Bootstrap
+- name: Databases
+  proficient:
+    - MS SQL Server
+    - PostgreSQL
+    - SQLite
+- name: ORM
+  proficient:
+    - EntityFramework
+    - Dapper
+- name: VCS
+  proficient:
+    - Git
+  familiar:
+    - SVN
+- name: 3D
+  proficient:
+    - OpenGL
+    - Direct3D
+    - Unity
+  familiar:
+    - Three.js
+    - Blender
+    - Unreal Engine
+- name: OS
+  proficient:
+    - Windows
+    - Linux
+  familiar:
+    - Docker
+    - Bash
+    - PowerShell
+- name: Plugin and integration development
+  proficient:
+    - 3D CAD
+    - BIM
+    - PDM
+    - MDM
+    - ERP

@@ -1,0 +1,22 @@
+- name: Complex Solutions (Ascon-Ufa), Russia
+  positions:
+    - datespan: 03/2022 – present
+      name: Lead Software Developer
+    - datespan: 03/2019 – 03/2022
+      name: Software Developer
+    - datespan: 04/2017 – 03/2019
+      name: Contractor Software Developer
+  responsibilities:
+    - Developing software and providing technical support for clients in the manufacturing
+      and building industries in an agile environment
+    - Developing Windows desktop applications, services, and plugins for 3D CAD, BIM, PDM, MDM, and ERP software
+    - Developing web applications and APIs using ASP.NET
+    - Working with MS SQL Server and PostgreSQL databases
+    - Formulating and discussing technical requirements with other stakeholders
+    - Developing in-company tools and libraries
+    - Providing technical support, mentoring other team members, and writing documentation
+  achievements:
+    - Completed and provided multi-year support for a number of projects
+    - Deployed Git server and managed transition from SVN
+    - Deployed local NuGet package registry and introduced the development of internal packages
+    - Deployed documentation website using DocFX and have been evolving in-company knowledge base

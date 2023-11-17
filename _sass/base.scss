@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 850px !important;
+}
+
+.app-figure {
+    @extend .figure;
+}
+
+.app-figure > img {
+    @extend .figure-img;
+    @extend .img-fluid;
+    @extend .rounded;
+    @extend .shadow;
+    @extend .bg-white;
+    @extend .mb-3;
+}
+
+.app-figure > figcaption {
+    @extend .figure-caption;
+    @extend .text-center;
+}
+
+.tag {
+    @extend .border;
+    @extend .px-2;
+    @extend .rounded;
+    @extend .p-1;
+}
+
+.tag-primary {
+    @extend .tag;
+    @extend .border-primary;
+    @extend .text-primary;
+}
+
+.tag-secondary {
+    @extend .tag;
+    @extend .border-secondary;
+    @extend .text-secondary;
+}
